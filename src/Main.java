@@ -8,7 +8,7 @@ public class Main {
             System.out.print("Введите через пробел, пример: 1 + 2: ");
             String s = sc.nextLine();
             System.out.println(calc(s));
-            if (s == "exit") break;
+            if (s.contentEquals("exit")) break;
         }
     }
 
